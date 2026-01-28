@@ -445,13 +445,12 @@ a {
 }
 
 .info-item dd a {
-    text-decoration: underline;
+    text-decoration: none;
     transition: opacity 0.3s;
 }
 
 .info-item dd a:hover {
     opacity: 0.7;
-    text-decoration: none;
 }
 
 .time-block {
@@ -627,6 +626,8 @@ a {
         width: 40px;
         height: 40px;
         justify-content: center;
+        /* テキストがある場合はここで非表示にするか、HTML側で調整が必要だが
+           現状HTML構造上svgのみなので、このスタイルで赤い四角＋アイコンになる */
     }
 }
 
