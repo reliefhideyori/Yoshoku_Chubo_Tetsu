@@ -626,8 +626,13 @@ a {
         width: 40px;
         height: 40px;
         justify-content: center;
-        /* テキストがある場合はここで非表示にするか、HTML側で調整が必要だが
-           現状HTML構造上svgのみなので、このスタイルで赤い四角＋アイコンになる */
+        font-size: 0 !important;
+        /* 強制的にテキストを非表示 */
+    }
+
+    .btn-reserve svg {
+        width: 20px;
+        height: 20px;
     }
 }
 
