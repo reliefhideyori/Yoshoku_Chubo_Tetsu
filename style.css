@@ -79,6 +79,10 @@ a {
 #header.scrolled {
     background: rgba(26, 26, 26, 0.98);
     backdrop-filter: blur(10px);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    /* 視認性向上のため影も追加 */
 }
 
 .header-container {
