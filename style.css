@@ -444,6 +444,16 @@ a {
     color: var(--color-white-soft);
 }
 
+.info-item dd a {
+    text-decoration: underline;
+    transition: opacity 0.3s;
+}
+
+.info-item dd a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
 .time-block {
     display: flex;
     align-items: center;
@@ -604,6 +614,19 @@ a {
 
     .info-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-text {
+        display: none;
+    }
+
+    .btn-reserve {
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
     }
 }
 
